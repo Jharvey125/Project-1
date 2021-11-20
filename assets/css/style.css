@@ -72,3 +72,18 @@ li a {
     text-align: center;
     font-size: 20px;
 }
+
+/* footer */
+
+#footer-background {
+    background-color: black;
+}
+
+footer {
+    list-style: none;
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+}
