@@ -23,7 +23,32 @@ h1, h2 {
 
 #logo {
     color: #ddfada;
-    background-color: black;
     font-size: 200%;
     float: left;
+    padding: 5px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 135%;
+    letter-spacing: 2px;
+    color: #ddfada;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+li a {
+    color:#ddfada;
+}
+
+#black-box {
+    width: 100%;
+    height: 50px;
+    background-color: black;
 }
