@@ -9,4 +9,21 @@
 body {
     font-family: montague Slab, serif;
     font-weight: 500;
+    color: #404040;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: courgette, sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    color: #404040;
+}
+
+#logo {
+    color: #ddfada;
+    background-color: black;
+    font-size: 200%;
+    float: left;
 }
