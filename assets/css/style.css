@@ -19,6 +19,7 @@ h1, h2 {
     text-transform: lowercase;
     letter-spacing: 2px;
     color: #404040;
+    text-decoration: underline;
 }
 
 #logo {
@@ -26,6 +27,7 @@ h1, h2 {
     font-size: 200%;
     float: left;
     padding: 5px;
+    text-decoration: none;
 }
 
 /* navigation links */
@@ -93,4 +95,28 @@ footer li {
     padding: 10px;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+/* types of meditation */
+
+#information {
+    padding-top: 50px;
+}
+
+.h2-types {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.meditation-types {
+       font-size: 20px;
+       padding-left: 5%;
+       padding-right: 5%;
+       text-align: center;
+}
+
+.meditation-list {
+    font-size: 20px;
+    list-style-type: circle;
+    padding-left: 45%;
 }
