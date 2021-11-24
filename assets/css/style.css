@@ -16,10 +16,12 @@ body {
 
 h1, h2 {
     font-family: courgette, sans-serif;
+    font-size: xx-large;
     text-transform: lowercase;
     letter-spacing: 2px;
     color: #404040;
     text-decoration: underline;
+    text-align: center;
 }
 
 #logo {
@@ -122,4 +124,16 @@ footer li {
     font-size: 20px;
     list-style-type: circle;
     padding-left: 45%;
+}
+
+/* get involved page */
+
+/* video */
+
+video {
+    width: 60%;
+    height: auto;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 5%;
 }
