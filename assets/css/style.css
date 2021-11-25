@@ -137,3 +137,9 @@ video {
 audio {
     padding-left: 40%;
 }
+
+/* form */
+
+form {
+    text-align: center;
+}
