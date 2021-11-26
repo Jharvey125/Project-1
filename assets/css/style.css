@@ -140,6 +140,9 @@ audio {
 
 /* form */
 
-form {
-    text-align: center;
+.feedback {
+    padding-left: 20%;
 }
+
+/* media queries */
+

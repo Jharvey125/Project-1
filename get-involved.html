@@ -39,70 +39,60 @@
         <audio src="assets/audio/FreeMindfulness3MinuteBreathing.mp3" controls autoplay>
             Your browser does not support this audio element</audio>
     </section>
-    <form>
-        <fieldset>
-            <legend>Feedback</legend>
-            <p>
-                <label for="fname">First Name:</label><br>
-                <input type="text"><br>
-            </p>
-            <p>
-                <label for="lname">Last Name:</label><br>
-                <input type="text"><br>
-            </p>
-            <p>
-                <label for="email">Email Adress:</label><br>
-                <input type="text"><br>
-            </p>
-            <p>
-                <label for="type">Which of these meditation types have you tried?</label><br>
-                <input type="checkbox">
-                <label>Mindfullness meditation</label><br>
-                <input type="checkbox">
-                <label>Spiritual meditation</label><br>
-                <input type="checkbox">
-                <label>focused meditation</label><br>
-                <input type="checkbox">
-                <label>movement meditation</label><br>
-                <input type="checkbox">
-                <label>visualization meditation</label><br>
-            </p>
-            <p>
-                <label>Which one is your favouite? (select one)</label><br>
-                <input type="text">
-            </p>
-            <p>
-                <label>Comments</label><br>
-                <label>How can i improve this website to help more people find meditation?</label><br>
-                <input type="text">
-            </p>
-    </form>
-</body>
-<footer>
-    <nav>
-        <ul>
-            <li>
-                <a href="https://www.facebook.com/" target="_blank">
-                    <i class="fab fa-facebook"></i><br>facebook</a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com" target="_blank">
-                    ` <i class="fab fa-twitter"></i><br>twitter</a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com" target="_blank">
-                    <i class="fab fa-instagram"></i><br>instagram</a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com" target="_blank">
-                    <i class="fab fa-youtube"></i><br>youtube</a>
-            </li>
-        </ul>
-    </nav>
-</footer>
+    <section class="feedback-section">
+        <form class="feedback-from" method="post" action="https://formdump.codeinstitute.net/">
+            <h2>Feedback</h2>
+            <h3>please fill out this feedback from to help us improve our website</h3>
+            <label for="fname">First Name:</label>
+            <input id="fname" class="text-input" type="text" name="first_name" required>
+            <label for="lname">Last Name:</label>
+            <input id="lname" class="text-input" type="text" name="last_name" required>
+            <label for="email">Email Address:</label>
+            <input id="email" class="text-input" type="email" name="email_address" required>
+            <h4>Which of these meditation types have you tried?</h4>
+            <input id="mindfullness" name="mindfullness_meditation" value="mindfullness" type="checkbox" required>
+            <label for="mindfullness">Mindfullness meditation</label>
+            <input id="spiritual" name="spiritual_meditation" value="spiritual" type="checkbox">
+            <label for="spiritual">Spiritual meditation</label>
+            <input id="focused" name="focused_meditation" value="focused" type="checkbox">
+            <label for="focused">focused meditation</label>
+            <input id="movement" name="movement_meditation" value="movement" type="checkbox">
+            <label for="movement">movement meditation</label>
+            <input id="visualisation" name="visualisation_meditation" value="visualisation" type="checkbox">
+            <label for="visualisation">visualisation meditation</label>
+            <h4>Which one is your favorite (select one)</h4>
+            <input id="favourite" name="favourite_meditation" type="text">
+            <h4>How can we improve our website?</h4>
+            <input id="improvements" name="improvements_feedback" value="improvements" type="text">
+            <input type="submit" value="thank you">
+        </form>
+    </section>
+    <br>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook"></i><br>facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank">
+                        ` <i class="fab fa-twitter"></i><br>twitter</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i><br>instagram</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <i class="fab fa-youtube"></i><br>youtube</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 
-<!-- font awesome script -->
-<script src="https://kit.fontawesome.com/89195dd976.js" crossorigin="anonymous"></script>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/89195dd976.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
