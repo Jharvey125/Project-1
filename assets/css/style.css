@@ -111,6 +111,12 @@ footer li {
     letter-spacing: 2px;
 }
 
+.flower {
+    width: 50%;
+    height: 300px;
+    padding-left: 25%;
+}
+
 .meditation-types {
        font-size: 20px;
        padding-left: 5%;
@@ -126,9 +132,10 @@ footer li {
 
 /* get involved page */
 
-h3 {
+.sub-heading {
     text-align: center;
     text-decoration: underline;
+    padding: 1%;
 }
 
 /* video */
@@ -138,7 +145,7 @@ video {
     height: auto;
     padding-left: 20%;
     padding-right: 10%;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 /* Audio */
