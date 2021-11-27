@@ -35,12 +35,12 @@
         <h1>Get involved</h1>
         <video src="assets/videos/pexels-mikhail-nilov-6707064.mp4" controls autoplay muted loop>
             Your browser does not support this video</video>
-        <h2>Try this 3 minute breathing exercise</h2>
+        <h3>Try this 3 minute breathing exercise</h3>
         <audio src="assets/audio/FreeMindfulness3MinuteBreathing.mp3" controls autoplay>
             Your browser does not support this audio element</audio>
     </section>
     <section class="feedback-section">
-        <form class="feedback-from" method="post" action="https://formdump.codeinstitute.net/">
+        <form class="feedback-form" method="post" action="https://formdump.codeinstitute.net/">
             <h2>Feedback</h2>
             <h3>please fill out this feedback from to help us improve our website</h3>
             <label for="fname">First Name:</label>
@@ -49,22 +49,29 @@
             <input id="lname" class="text-input" type="text" name="last_name" required>
             <label for="email">Email Address:</label>
             <input id="email" class="text-input" type="email" name="email_address" required>
-            <h4>Which of these meditation types have you tried?</h4>
-            <input id="mindfullness" name="mindfullness_meditation" value="mindfullness" type="checkbox" required>
+            <label>Which of these meditation types have you tried?</label>
+            <br>
+            <input id="mindfullness" class="checkbox" name="mindfullness_meditation" type="checkbox" required>
             <label for="mindfullness">Mindfullness meditation</label>
-            <input id="spiritual" name="spiritual_meditation" value="spiritual" type="checkbox">
+            <br>
+            <input id="spiritual" class="checkbox" name="spiritual_meditation" type="checkbox">
             <label for="spiritual">Spiritual meditation</label>
-            <input id="focused" name="focused_meditation" value="focused" type="checkbox">
-            <label for="focused">focused meditation</label>
-            <input id="movement" name="movement_meditation" value="movement" type="checkbox">
-            <label for="movement">movement meditation</label>
-            <input id="visualisation" name="visualisation_meditation" value="visualisation" type="checkbox">
+            <br>
+            <input id="focused" class="checkbox" name="focused_meditation" type="checkbox">
+            <label for="focused">Focused meditation</label>
+            <br>
+            <input id="movement" class="checkbox" name="movement_meditation" type="checkbox">
+            <label for="movement">Movement meditation</label>
+            <br>
+            <input id="visualisation" class="checkbox" name="visualisation_meditation" type="checkbox">
             <label for="visualisation">visualisation meditation</label>
-            <h4>Which one is your favorite (select one)</h4>
-            <input id="favourite" name="favourite_meditation" type="text">
-            <h4>How can we improve our website?</h4>
-            <input id="improvements" name="improvements_feedback" value="improvements" type="text">
-            <input type="submit" value="thank you">
+            <br>
+            <label>Which one is your favorite (select one)</label>
+            <input id="favourite" class="text-input" name="favourite_meditation" type="text">
+            <label>How can we improve our website?</label>
+            <input id="improvements" class="text-input" name="improvements_feedback" type="text-area">
+            <br>
+            <input class="submit" type="submit">
         </form>
     </section>
     <br>
@@ -77,7 +84,7 @@
                 </li>
                 <li>
                     <a href="https://www.twitter.com" target="_blank">
-                        ` <i class="fab fa-twitter"></i><br>twitter</a>
+                        <i class="fab fa-twitter"></i><br>twitter</a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com" target="_blank">
