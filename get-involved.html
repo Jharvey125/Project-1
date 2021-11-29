@@ -67,9 +67,18 @@
             <input id="visualisation" class="checkbox" name="visualisation_meditation" type="checkbox">
             <label for="visualisation">visualisation meditation</label>
             <br>
-            <label>Which one is your favorite (select one)</label>
-            <input id="favourite" class="text-input" name="favourite_meditation" type="text">
-            <label>How can we improve our website?</label>
+            <label for="favourite">which one is your favouite? (select one)</label><br>
+
+            <select name="types" id="favourite">
+                <option value="">--Please choose an option--</option>
+                <option value="mindfullness">Mindfullness</option>
+                <option value="spiritual">Spiritual</option>
+                <option value="focused">Focused</option>
+                <option value="movement">Movement</option>
+                <option value="visualisation">visualisation</option>
+            </select>
+            <br>
+            <label>How can we improve our website?</label><br>
             <input id="improvements" class="text-input" name="improvements_feedback" type="text">
             <br>
             <input class="submit" type="submit">
