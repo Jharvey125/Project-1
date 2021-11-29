@@ -191,6 +191,12 @@ form h2 {
 
 /* media queries */
 
+@media screen and (max-width: 1600px) {
+    .flower {
+        height: 500px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #hero-image {
         width: 100%;
@@ -250,5 +256,7 @@ form h2 {
     padding-top: 30%;
     }
 
-    
+    .flower {
+        height: 150px;
+    }
 }
