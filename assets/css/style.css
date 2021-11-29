@@ -189,6 +189,15 @@ form h2 {
     padding-bottom: 15px;
 }
 
+.submit {
+    width: 80px;
+    height: 30px;
+}
+
+.submit:hover {
+    background-color: orange;
+}
+
 /* media queries */
 
 @media screen and (max-width: 1600px) {
@@ -258,5 +267,10 @@ form h2 {
 
     .flower {
         height: 100px;
+    }
+
+    .feedback-section {
+        text-align: left;
+        padding: 0;
     }
 }

@@ -3,7 +3,7 @@ The let's meditate website is for anyone that would like to adopt meditation int
 
 Users of the let's meditate website will find everything they need to know about different types of meditation. People relax in different ways, from reading books to gardening, everyone should have something in their life that helps them calm down after a long day. This website hopes to give people the tools to have a better look at life.
 
-![alt-text](assets/images/am-i-responsive.JPG)
+![Showing the website on different devices such as a computer, laptop, tablet and phone](assets/images/am-i-responsive.JPG)
 
 ## Features
 
@@ -14,7 +14,7 @@ Users of the let's meditate website will find everything they need to know about
 - The navigation bar is written in a calming font aswell as a calming colour. blue and green are concidered calm colours apossed to red. This will help people feel relax from the moment they opened the website.
 The navigation is really easy to use and understand, the logo tells the user what the website is about and what they will find on other pages of the website.
 
-![alt-text](assets/images/nav-bar.JPG)
+![this image shows the nav bar](assets/images/nav-bar.JPG)
 
 ## hero image
 
@@ -23,7 +23,7 @@ The navigation is really easy to use and understand, the logo tells the user wha
 - The women in the picture shows the age group the website is aimed at.
 - The image doesnt cover the entire screen, the word history shows just below to make users interested and want to read on to learn more.
 
-![alt-text](assets/images/hero-image.JPG)
+![this shows the hero image](assets/images/hero-image.JPG)
 
 ## The types page
 
@@ -70,7 +70,7 @@ The navigation is really easy to use and understand, the logo tells the user wha
 
 - Accessibility: I ran all my code throught the dev tool lighthouse.
 
-![alt-text](assets/images/lighthouse.JPG)
+![this shows lighthouse results](assets/images/lighthouse.JPG)
 
 ## Unfixed bugs
 
