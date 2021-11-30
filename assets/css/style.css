@@ -215,7 +215,7 @@ form h2 {
 
 /* media queries */
 
-@media screen and (max-width:1920) and (max-width: 1200px) {
+@media screen and (min-width:1201) and (max-width: 1920px) {
     header {
         height: 50px;
     }
