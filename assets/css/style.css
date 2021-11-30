@@ -214,3 +214,68 @@ form h2 {
 }
 
 /* media queries */
+
+@media screen and (max-width: 1920px) {
+
+    /* home page */
+
+    #hero-image {
+        height: 725px;
+    }
+
+    #logo {
+        padding-left: 20px;
+    }
+
+    .history {
+        width: 80%;
+        padding-left: 200px;
+    }
+
+    #menu li {
+        padding-left: 40px;
+    }
+
+    footer li {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    /* types page */
+
+    .flower {
+        height: 600px;
+        padding-left: 400px;
+    }
+
+    .meditation-list {
+        padding-left: 900px;
+    } 
+
+    /* get involved page */
+
+    video {
+        padding-left: 400px;
+    }
+
+    audio {
+        padding-left: 800px;
+    }
+
+    .feedback-form {
+        padding-left: 700px;
+        max-width: 650px;
+        font-size: 25px;
+    }
+    .feedback-section {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 400px) {
+
+}
