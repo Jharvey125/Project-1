@@ -152,7 +152,7 @@ footer li {
 video {
     width: 60%;
     height: auto;
-    padding: 10px 0 10px 250px;
+    padding: 10px 0px 10px 250px;
 }
 
 /* Audio */
@@ -215,7 +215,7 @@ form h2 {
 
 /* media queries */
 
-@media screen and (min-width:1201) and (max-width: 1920px) {
+@media screen and (min-width:1201px) and (max-width: 1920px) {
     header {
         height: 50px;
     }
@@ -227,6 +227,7 @@ form h2 {
     .history {
         padding-left: 100px;
         padding-right: 100px;
+        font-size: 25px;
     }
     footer {
         height: 60px;
@@ -236,7 +237,7 @@ form h2 {
 
     .flower {
         height: 300px;
-        padding-left: 250px;
+        padding-left: 270px;
     }
 
     .meditation-list {
@@ -282,7 +283,7 @@ form h2 {
         height: 100px;
     }
     #menu li {
-        padding: 2px 20px 0 1px;  
+        padding: 2px 20px 0px 1px;  
     }
 
     #hero-image {
