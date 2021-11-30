@@ -41,50 +41,78 @@
             Your browser does not support this audio element</audio>
     </section>
     <section class="feedback-section">
+        <h2>Feedback</h2>
+        <h3>please fill out this feedback from to help us improve our website</h3>
         <form class="feedback-form" method="post" action="https://formdump.codeinstitute.net/">
-            <h2>Feedback</h2>
-            <h3>please fill out this feedback from to help us improve our website</h3>
-            <label for="fname">First Name:</label>
-            <input id="fname" class="text-input" type="text" name="first_name" required>
-            <label for="lname">Last Name:</label>
-            <input id="lname" class="text-input" type="text" name="last_name" required>
-            <label for="email">Email Address:</label>
-            <input id="email" class="text-input" type="email" name="email_address" required>
-            <label>Which of these meditation types have you tried?</label>
-            <br>
-            <input id="mindfullness" class="checkbox" name="mindfullness_meditation" type="checkbox" required>
-            <label for="mindfullness">Mindfullness meditation</label>
-            <br>
-            <input id="spiritual" class="checkbox" name="spiritual_meditation" type="checkbox">
-            <label for="spiritual">Spiritual meditation</label>
-            <br>
-            <input id="focused" class="checkbox" name="focused_meditation" type="checkbox">
-            <label for="focused">Focused meditation</label>
-            <br>
-            <input id="movement" class="checkbox" name="movement_meditation" type="checkbox">
-            <label for="movement">Movement meditation</label>
-            <br>
-            <input id="visualisation" class="checkbox" name="visualisation_meditation" type="checkbox">
-            <label for="visualisation">visualisation meditation</label>
-            <br>
-            <label for="favourite">which one is your favouite? (select one)</label><br>
-
-            <select name="types" id="favourite">
-                <option value="">--Please choose an option--</option>
-                <option value="mindfullness">Mindfullness</option>
-                <option value="spiritual">Spiritual</option>
-                <option value="focused">Focused</option>
-                <option value="movement">Movement</option>
-                <option value="visualisation">visualisation</option>
-            </select>
-            <br>
-            <label>How can we improve our website?</label><br>
-            <input id="improvements" class="text-input" name="improvements_feedback" type="text">
-            <br>
-            <input class="submit" type="submit">
+            <ul class="form-list">
+                <li>
+                    <label for="fname" class="form-labels">First Name:</label>
+                </li>
+                <li>
+                    <input class="text-input" type="text" name="first_name" required>
+                </li>
+                <li>
+                    <label for="lname" class="form-labels">Last Name:</label>
+                </li>
+                <li>
+                    <input id="lname" class="text-input" type="text" name="last_name" required>
+                </li>
+                <li>
+                    <label for="email" class="form-labels">Email Address:</label>
+                </li>
+                <li>
+                    <input id="email" class="text-input" type="email" name="email_address" required>
+                </li>
+                <li>
+                    <label class="form-labels">Which of these meditation types have you tried?</label>
+                </li>
+                <li>
+                    <ul class="form-list">
+                        <li>
+                            <input id="mindfullness" class="checkbox" name="meditation-checkbox" type="checkbox">
+                            <label for="mindfullness">Mindfullness meditation</label>
+                        </li>
+                        <li>
+                            <input id="spiritual" class="checkbox" name="meditation-checkbox" type="checkbox">
+                            <label for="spiritual">Spiritual meditation</label>
+                        </li>
+                        <li>
+                            <input id="focused" class="checkbox" name="meditation-checkbox" type="checkbox">
+                            <label for="focused">Focused meditation</label>
+                        </li>
+                        <li>
+                            <input id="movement" class="checkbox" name="meditation-checkbox" type="checkbox">
+                            <label for="movement">Movement meditation</label>
+                        </li>
+                        <li>
+                            <input id="visualisation" class="checkbox" name="meditation-checkbox" type="checkbox">
+                            <label for="visualisation">visualisation meditation</label>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="favourite" class="form-labels">Which one is your favouite? (select one)</label>
+                </li>
+                <li>
+                    <select name="favourite" required>
+                        <option value="">--Please choose an option--</option>
+                        <option value="mindfullness">Mindfullness</option>
+                        <option value="spiritual">Spiritual</option>
+                        <option value="focused">Focused</option>
+                        <option value="movement">Movement</option>
+                        <option value="visualisation">visualisation</option>
+                    </select>
+                </li>
+                <li>
+                    <label class="form-labels">How can we improve our website?</label>
+                </li>
+                <li>
+                    <textarea id="improvements" class="text-input" name="improvements_feedback" required></textarea>
+                </li>
+                <input class="submit" type="submit">
+            </ul>
         </form>
     </section>
-    <br>
     <footer>
         <nav>
             <ul>

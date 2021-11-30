@@ -155,34 +155,39 @@ footer li {
 video {
     width: 60%;
     height: auto;
-    padding-left: 20%;
-    padding-right: 10%;
-    padding-top: 3%;
+    padding: 10px 0 10px 250px;
 }
 
 /* Audio */
 
 audio {
-    padding-left: 40%;
+    padding: 10px 0px 10px 475px;
 }
 
 /* form */
 
 .feedback-section {
-    background-color: #ddfada;
-    height: 550px;
-    background-position: center;
-    background-size: cover;
+    background-color: #dbfada;
+    width: 100%;
+    height: 700px;
 }
 
 .feedback-form {
-    margin: 50px 5% 0 0;
-    color: #000000;
-    max-width: 60%;
-    position: absolute;
-    left: 30%;
-    padding: 10px;
-    max-width: 500px;
+    color: #404040;
+    padding: 10px 0px 10px 450px;
+    max-width: 400px;
+}
+
+.form-list {
+    list-style-type: none;
+}
+
+.form-list li {
+    padding: 5px;
+}
+
+.form-labels {
+    text-decoration: underline;
 }
 
 .text-input {
