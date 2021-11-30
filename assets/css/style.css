@@ -215,7 +215,7 @@ form h2 {
 
 /* media queries */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width:1920) and (max-width: 1200px) {
     header {
         height: 50px;
     }
@@ -244,7 +244,7 @@ form h2 {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 501px) and (max-width: 1200px) {
     #hero-image {
         height: 300px;
     }
@@ -270,7 +270,7 @@ form h2 {
         padding-left: 250px;
     }
 }
-    @media screen and (max-width: 360px) {
+    @media screen and (min-width: 350px) and (max-width:500px) {
 
     /* home page */
 
